@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="18" failures="0" errors="0" time="7.431">
+  <testsuite name="CommonController.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:54" time="2.231" tests="2">
+    <testcase classname="CommonController.ts tests" name=" it Should Create All Tables " time="0.012" file="dist\__tests__\controllers\commonController.test.js">
+    </testcase>
+    <testcase classname="CommonController.ts tests" name="it should Delete All Tables" time="0.002" file="dist\__tests__\controllers\commonController.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="LeadController.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:56" time="1.175" tests="2">
+    <testcase classname="LeadController.ts tests" name="it should Save Lead  Successfully" time="0.026" file="dist\__tests__\controllers\leadController.test.js">
+    </testcase>
+    <testcase classname="LeadController.ts tests" name="it should Get All Lead Data" time="0.016" file="dist\__tests__\controllers\leadController.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommonService.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:58" time="0.297" tests="3">
+    <testcase classname="CommonService.ts tests" name="it should Create All If not exists" time="0.009" file="dist\__tests__\services\commonService.test.js">
+    </testcase>
+    <testcase classname="CommonService.ts tests" name="it should Delete Table If Exists" time="0" file="dist\__tests__\services\commonService.test.js">
+    </testcase>
+    <testcase classname="CommonService.ts tests" name="it should Delete Table Data If Exists" time="0.001" file="dist\__tests__\services\commonService.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="LeadService.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:58" time="0.284" tests="2">
+    <testcase classname="LeadService.ts tests" name="it should Save Lead Master Successfully" time="0.011" file="dist\__tests__\services\leadService.test.js">
+    </testcase>
+    <testcase classname="LeadService.ts tests" name="it should Get All Lead Master Data" time="0.001" file="dist\__tests__\services\leadService.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommonService.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:54" time="5.991" tests="3">
+    <testcase classname="CommonService.ts tests" name="it should Create All If not exists" time="0.039" file="src\__tests__\services\commonService.test.ts">
+    </testcase>
+    <testcase classname="CommonService.ts tests" name="it should Delete Table If Exists" time="0.001" file="src\__tests__\services\commonService.test.ts">
+    </testcase>
+    <testcase classname="CommonService.ts tests" name="it should Delete Table Data If Exists" time="0.001" file="src\__tests__\services\commonService.test.ts">
+    </testcase>
+  </testsuite>
+  <testsuite name="LeadService.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:54" time="6.058" tests="2">
+    <testcase classname="LeadService.ts tests" name="it should Save Lead Master Successfully" time="0.017" file="src\__tests__\services\leadService.test.ts">
+    </testcase>
+    <testcase classname="LeadService.ts tests" name="it should Get All Lead Master Data" time="0.001" file="src\__tests__\services\leadService.test.ts">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommonController.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:54" time="6.764" tests="2">
+    <testcase classname="CommonController.ts tests" name=" it Should Create All Tables " time="0.013" file="src\__tests__\controllers\commonController.test.ts">
+    </testcase>
+    <testcase classname="CommonController.ts tests" name="it should Delete All Tables" time="0.001" file="src\__tests__\controllers\commonController.test.ts">
+    </testcase>
+  </testsuite>
+  <testsuite name="LeadController.ts tests" errors="0" failures="0" skipped="0" timestamp="2025-03-07T08:55:54" time="6.917" tests="2">
+    <testcase classname="LeadController.ts tests" name="it should Save Lead  Successfully" time="0.011" file="src\__tests__\controllers\leadController.test.ts">
+    </testcase>
+    <testcase classname="LeadController.ts tests" name="it should Get All Lead Data" time="0.001" file="src\__tests__\controllers\leadController.test.ts">
+    </testcase>
+  </testsuite>
+</testsuites>
