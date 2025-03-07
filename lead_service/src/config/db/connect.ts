@@ -13,7 +13,7 @@ export class DBConnection {
       host: process.env.DB_HOST || 'localhost',
       port: parseInt(process.env.PG_PORT || '5432'),
       user: process.env.POSTGRES_USER || 'postgres',
-      password: process.env.POSTGRES_PASSWORD || '08dee101',
+      password: process.env.POSTGRES_PASSWORD || 'password',
       database: process.env.POSTGRES_DB || 'postgres',
     };
     DBConnection.Pool = new Pool(credentials);
